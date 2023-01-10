@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .nav {
+            height: 60px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .nav ul {
+            display: inline-block;
+            list-style: none;
+        }
+
+        .nav ul li {
+            float: left;
+        }
+
+        .nav ul li a {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            padding: 0 30px;
+            line-height: 60px;
+        }
+
+        .nav ul li a:hover {
+            background-color: salmon;
+            color: #fff;
+        }
+
+        .hero p {
+            background-color: salmon;
+            display: flex;
+            justify-content: center;
+            padding: 150px;
+        }
+
+        .content .row .text {
+            width: 40%;
+            float: left;
+            margin: 50px;
+            padding: 10px;
+            line-height: 30px;
+        }
+
+        .content .row .text h3 {
+            font-size: 30px;
+            text-decoration: underline;
+            margin-bottom: 25px;
+        }
+
+        .content .row .image img {
+            width: 40%;
+            float: right;
+            margin: 50px;
+            padding: 10px;
+        }
+
+        .footer {
+            background-color: salmon;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <p>Ini adalah Hero</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <div class="text">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto beatae omnis a perferendis architecto
+                    consectetur nam reiciendis est, repellendus inventore dicta sapiente suscipit earum? Facere quo
+                    impedit
+                    officiis cupiditate! Mollitia repellendus fugit veritatis nam aliquid, accusantium vitae suscipit,
+                    sit
+                    neque
+                    aliquam architecto quae corrupti quis voluptas beatae, excepturi consectetur laboriosam! </p>
+            </div>
+
+            <div class="image">
+                <img src="img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>&copy; Copyright 2023 Dede Nurdiyanto</p>
+    </section>
+</body>
+
+</html>
